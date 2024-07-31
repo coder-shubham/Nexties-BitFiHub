@@ -17,7 +17,34 @@ BitFiHub is a decentralized finance (DeFi) application that leverages Bitcoin an
 - Truffle
 - Ganache
 
+### Install Truffle and Ganache
+```bash
+npm install -g truffle
+npm install -g ganache-cli
+```
+
 ### Compile and Deploy Smart Contracts
 ```bash
 truffle compile
 truffle migrate --network development
+```
+
+### Set up Backend
+```bash
+cd backend
+npm install
+node server.js
+```
+
+### Set up Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
+
+### Run Local Blockchain
+```bash
+ganache-cli
+```
+
